@@ -207,7 +207,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     # Set some files as exacutable
     echo -e "$CNT - Setting some file as executable." 
     chmod +x ~/.config/hypr/scripts/bgaction
-    chmod +x ~/.config/hypr/scripts/xdg-portal-hyprland
+    chmod +x ~/.config/hypr/.autostart
     chmod +x ~/.config/waybar/scripts/waybar-wttr.py
     chmod +x ~/.config/waybar/scripts/baraction
     chmod +x ~/.config/waybar/scripts/update-sys
